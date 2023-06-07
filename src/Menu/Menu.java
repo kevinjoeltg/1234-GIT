@@ -44,7 +44,7 @@ public class Menu {
      */
     public int leerOpcion() {
         System.out.println("------------------------------");
-        System.out.print("ELIGE TU OPCIÓN: ");
+        System.out.print("ELIGE ESTA OPCION: ");
         Scanner sc = new Scanner(System.in);
         int opcion = sc.nextInt();
         sc.nextLine();      
